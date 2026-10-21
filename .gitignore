@@ -1,0 +1,31 @@
+# Python and local environments
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.venv/
+venv/
+env/
+
+# Editor and operating-system files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Local credentials and configuration
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+credentials.json
+
+# Original records and generated results (kept locally)
+*.xlsx
+*.xls
+*.csv
+output/
+
+# Local Git backups
+.git.bak/
